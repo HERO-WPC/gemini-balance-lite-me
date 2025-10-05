@@ -6,7 +6,7 @@ import openai from './openai.mjs';
 // 
 // 配置区域:
 // 将此处的域名替换为您在 DNS 中设置的用于转发的域名。
-const FORWARDING_HOSTNAME = 'forward.herowpc.dpdns.org';
+const FORWARDING_HOSTNAME = 'herowpc-us.duckdns.org';
 // 
 
 export async function handleRequest(request) {
